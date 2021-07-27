@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: fde1e7ee291d8234781b5eeb2765331f
+  - enabled: 1
+    path: Assets/Scenes/SelectCharacter.unity
+    guid: d61da0388c2878c47aa5b3f3b094f209
+  - enabled: 1
+    path: Assets/Scenes/Appartement.unity
+    guid: b52a2f71c4ea06e47b2dbb911434a217
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SalleMatchs.unity
+    guid: c4c82a11c9ddaa942a3bd225e781b283
+  - enabled: 1
+    path: Assets/Scenes/WAC.unity
+    guid: e77ed6b76f063c4439f543f53c67769c
+  - enabled: 1
+    path: Assets/Scenes/BYWS.unity
+    guid: 99b7c2c8758d95048906f0256ee2798e
+  - enabled: 1
+    path: Assets/Scenes/BWS.unity
+    guid: 5678f974193ba36428478d7ac1ddc9be
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SceneCombatTuto.unity
+    guid: 7b91b82800e95104d8733a5d057fa1fc
+  - enabled: 1
+    path: Assets/Scenes/SalleCombat1.unity
+    guid: 29129f5500572f34885068f6641f1ff6
+  - enabled: 1
+    path: Assets/Scenes/SalleCombat2.unity
+    guid: fcdd77d2249d02a4697e0029188d6173
+  - enabled: 1
+    path: Assets/Scenes/SalleCombat3.unity
+    guid: f971b03e0271b034d899c56cc70f56b6
+  - enabled: 1
+    path: Assets/Scenes/SceneFin.unity
+    guid: 6cf1986b8cff4d94dbbd4f4520277983
+  m_configObjects: {}

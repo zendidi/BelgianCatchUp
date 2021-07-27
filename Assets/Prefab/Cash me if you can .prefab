@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &619327571686117456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3350334057480854919}
+  - component: {fileID: 5008493308590461072}
+  - component: {fileID: 2191723678416454013}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3350334057480854919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619327571686117456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1651623008926797438}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.201, y: 0.042000003}
+  m_AnchorMax: {x: 0.799, y: 0.95500004}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -0.00018311}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5008493308590461072
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619327571686117456}
+  m_CullTransparentMesh: 0
+--- !u!114 &2191723678416454013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619327571686117456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "<b><size=18>Cash me if you can\r\n</size>\n\nSur le ring, le niveau des
+    meilleurs catcheurs belges n\u2019a pas grand-chose \xE0 envier \xE0 leurs homologues
+    am\xE9ricains. La grande diff\xE9rence se situe surtout dans les effets pyrotechniques,
+    le jeu de lumi\xE8res, les installations sonores\u2026 Bref, dans l\u2019argent.
+    Nos ligues de catch sont pauvres parce que le public ne suit pas, mais aussi
+    \xE0 cause de probl\xE8mes inh\xE9rents \xE0 la discipline elle-m\xEAme.</b>\n\n\xAB
+    Tu as vu aujourd\u2019hui les matchs de la WWE \xE0 huis clos \xE0 cause du coronavirus
+    ? C\u2019est pourri ! En fait, notre niveau n\u2019est pas si \xE9loign\xE9 mais,
+    chez nous, on n\u2019a juste pas la mentalit\xE9 du show, ni l\u2019argent pour
+    les effets sp\xE9ciaux \xBB. Le lutteur \xAB L\xE9gion \xBB vend certes bien
+    son produit, mais n\u2019a pas tout \xE0 fait tort : les meilleurs catcheurs
+    du circuit belge valent le coup d\u2019\xEAtre vus en live.\r\n\nIl suffit de
+    se rendre \xE0 un show pour s\u2019en rendre compte. Lorsque la World Catch League
+    pr\xE9sente son gala \xAB Catch Fire \xBB \xE0 Anderlecht en f\xE9vrier pass\xE9,
+    le talent sur le ring est l\xE0. Les techniques, prises et cascades impressionnent\u2026
+    Mais c\u2019est tout ! Le reste, en passant du micro d\xE9fectueux aux effets
+    sp\xE9ciaux trop l\xE9gers, ram\xE8ne inexorablement \xE0 l\u2019amateurisme
+    du catch belge. L\u2019envie y est pourtant, mais il manque cruellement d\u2019argent.\r\n\nC\u2019est
+    qu\u2019\xE0 d\xE9faut d\u2019un public plus nombreux, les shows ne rapportent
+    pas beaucoup, quand ils ne sont tout simplement pas en perte. \xAB Nous visons
+    l\u2019\xE9quilibre en g\xE9n\xE9ral pour pouvoir rentrer dans nos frais. Et
+    si nous nous gagnons 50 \u20AC, c\u2019est pour pouvoir aller au resto par apr\xE8s
+    \xBB, t\xE9moigne ainsi S\xE9bastien Bricmont, g\xE9rant de la Superstar Wrestling.\r\n\n<b>Le
+    catch : l\u2019enfant b\xE2tard malaim\xE9\r</b>\n\nL\u2019absence de public
+    n\u2019est pas la seule cause derri\xE8re ce manque de moyens. La discipline
+    souffre de sa filiation m\xE9tiss\xE9e. Trop sportive que pour \xEAtre l\xE9gitim\xE9e
+    par le monde de la culture, trop culturelle que pour \xEAtre consid\xE9r\xE9e
+    dans le monde du sport. \xAB Le catch ne sera jamais reconnu par la F\xE9d\xE9ration
+    Wallonie Bruxelles tout simplement parce que cette activit\xE9 est un spectacle
+    situ\xE9 aux confins de la culture et du folklore \xBB dit Jean-Michel Garin,
+    actif au service g\xE9n\xE9ral de la politique sportive. Cette opinion rencontre
+    celle exprim\xE9e par Fran\xE7ois Galland du service des projets pluridisciplinaires
+    culturels : \xAB Le catch, en lui-m\xEAme, a peu de chance d\u2019\xEAtre reconnu
+    un jour comme \u201Cdiscipline artistique\u201D car il utilise tr\xE8s peu de
+    codes des arts de la sc\xE8ne \xBB. Deux mondes diff\xE9rents, une m\xEAme opinion\u2026
+    Une \xE9trange convergence qui se solde par une cons\xE9quence malheureuse :
+    exit les subsides !\r\n\n\xC0 c\xF4t\xE9 de cela, m\xEAme si parfois l\u2019aspect
+    fun du produit catch permet de trouver certains petits sponsors, son image semble
+    le desservir. L\u2019aspect chiqu\xE9, un peu violent et parfois \xAB beauf \xBB
+    n\u2019aide pas \xE0 attirer les sponsors. \xAB On nous a d\xE9j\xE0 refus\xE9
+    un accord tout simplement parce que c\u2019est du catch \xBB, regrette ainsi
+    Chris Bizige, responsable de la \xAB World Catch League \xBB.\r\n\nBref, la majorit\xE9
+    des shows doivent se financer sur fonds propres. Et, \xE0 moins que les projecteurs
+    de la t\xE9l\xE9vision d\xE9cident soudain de se braquer sur la discipline, il
+    semble que le catch belge ait bien \xE0 faire route seul.\r\n\n<b>L\u2019argent
+    fait le catcheur\r</b>\n\nR\xE9sultat des courses, les shows sont de moindres
+    qualit\xE9s que ce que le niveau des catcheurs pourrait proposer. Pire, il devient
+    difficile d\u2019organiser r\xE9guli\xE8rement des matchs. Les promotions parviennent
+    ainsi \xE0 r\xE9aliser trois voire quatre shows par an. Ce qui est loin d\u2019\xEAtre
+    suffisant pour fid\xE9liser un public important, ou m\xEAme composer un sc\xE9nario
+    sur plusieurs matchs\u2026 qui est une dimension importante du succ\xE8s du catch
+    made in USA. \xAB Les storylines sont pratiquement inexistantes en Belgique.
+    Tout simplement parce que s\u2019il se passe quelque chose au mois de septembre,
+    le public aura tout oubli\xE9 au mois de janvier \xBB explique Damien Plaitin
+    (fan de catch belge).\r\n\nAinsi, comme trop souvent, l\u2019argent reste le
+    nerf de la guerre. Et il s\u2019agit l\xE0 d\u2019un combat qui ne peut se gagner
+    \xE0 coups de manchettes. \r\n"
+--- !u!1 &714831928082654820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2400867307272465894}
+  - component: {fileID: 3410043206081507826}
+  - component: {fileID: 2451129545723759918}
+  - component: {fileID: 8610741504148813754}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2400867307272465894
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714831928082654820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6706049710216965585}
+  m_Father: {fileID: 1651623008926797438}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 417, y: -426}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3410043206081507826
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714831928082654820}
+  m_CullTransparentMesh: 0
+--- !u!114 &2451129545723759918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714831928082654820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 711d1b797a4c04948947dee4d96b9667, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8610741504148813754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714831928082654820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2451129545723759918}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2567400366538495742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3597433580236281707}
+  - component: {fileID: 6334529240995210029}
+  - component: {fileID: 4059549691422380609}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3597433580236281707
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567400366538495742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1651623008926797438}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6334529240995210029
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567400366538495742}
+  m_CullTransparentMesh: 0
+--- !u!114 &4059549691422380609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567400366538495742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9372549}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!1 &4381280740413634580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6706049710216965585}
+  - component: {fileID: 3526827730468756720}
+  - component: {fileID: 5961610113937203763}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6706049710216965585
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4381280740413634580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2400867307272465894}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3526827730468756720
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4381280740413634580}
+  m_CullTransparentMesh: 0
+--- !u!114 &5961610113937203763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4381280740413634580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!1 &7922088341855499405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651623008926797438}
+  m_Layer: 5
+  m_Name: 'Cash me if you can '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1651623008926797438
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922088341855499405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3597433580236281707}
+  - {fileID: 3350334057480854919}
+  - {fileID: 2400867307272465894}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1072}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0.49999994}

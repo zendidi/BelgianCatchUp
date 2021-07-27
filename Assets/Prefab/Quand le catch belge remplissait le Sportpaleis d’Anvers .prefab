@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6961265832943649049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961265832943649048}
+  - component: {fileID: 6961265832943649050}
+  - component: {fileID: 6961265832943649051}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6961265832943649048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265832943649049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6961265833365370948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6961265832943649050
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265832943649049}
+  m_CullTransparentMesh: 0
+--- !u!114 &6961265832943649051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265832943649049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9372549}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!1 &6961265833365370949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961265833365370948}
+  m_Layer: 5
+  m_Name: "Quand le catch belge remplissait le Sportpaleis d\u2019Anvers "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6961265833365370948
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833365370949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6961265832943649048}
+  - {fileID: 6961265833963332579}
+  - {fileID: 6961265833838969423}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1072}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0.49999994}
+--- !u!1 &6961265833838969420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961265833838969423}
+  - component: {fileID: 6961265833838970288}
+  - component: {fileID: 6961265833838970289}
+  - component: {fileID: 6961265833838969422}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6961265833838969423
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833838969420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6961265834380200702}
+  m_Father: {fileID: 6961265833365370948}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 417, y: -426}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6961265833838970288
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833838969420}
+  m_CullTransparentMesh: 0
+--- !u!114 &6961265833838970289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833838969420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 711d1b797a4c04948947dee4d96b9667, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6961265833838969422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833838969420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 6961265833838970289}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6961265833963332576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961265833963332579}
+  - component: {fileID: 6961265833963332581}
+  - component: {fileID: 6961265833963332578}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6961265833963332579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833963332576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6961265833365370948}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.201, y: 0.042000003}
+  m_AnchorMax: {x: 0.799, y: 0.95500004}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -0.00018311}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6961265833963332581
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833963332576}
+  m_CullTransparentMesh: 0
+--- !u!114 &6961265833963332578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265833963332576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "<b><size=18>Quand le catch belge remplissait le Sportpaleis d\u2019Anvers</size>\n\nJimmy
+    Pantera, de son nom d\u2019auteur, est Professeur d\u2019arts graphiques et sp\xE9cialistes
+    des cultures populaires. Dans le cadre de son travail, il s\u2019applique \xE0
+    exhumer traditions et folklores belges afin qu\u2019ils ne tombent pas dans l\u2019oubli.
+    Un combat important \xE0 mener dans un pays qui ne consid\xE8re que la Culture
+    avec un grand \xAB C \xBB. En 2019, il cosigne, avec Barnab\xE9 Mons, le livre
+    Kistch Catch. Un ouvrage qui explore l\u2019histoire fran\xE7aise et belge de
+    cette discipline, dont les origines se situent entre sports de force ouvriers
+    et spectacles forains.\r\n\r</b>\n\n<i>Avant toute chose, nous voudrions aborder
+    une difficult\xE9 rencontr\xE9e lors de notre travail. Il est presque impossible
+    de trouver de la documentation sur le catch belge. En ce sens, nous sommes tr\xE8s
+    heureux de pouvoir vous parler. Mais comment expliquez-vous cette discr\xE9tion
+    ?\r</i>\n\nLe catch ne fait pas partie de ces pratiques artistiques officielles
+    dites \xAB nobles \xBB comme l\u2019op\xE9ra ou le th\xE9\xE2tre. Il se situe
+    vraiment dans les catacombes de la culture populaire. Et ce monde-l\xE0 n\u2019a
+    jamais attir\xE9 l\u2019attention de la communaut\xE9 scientifique ni d\u2019un
+    recensement artistique. Il n\u2019existe tout simplement pas de volont\xE9 politique
+    de reconnaissance et de sauvegarde culturelles en Belgique. Notre pays a d\u2019ailleurs
+    toujours eu un v\xE9ritable probl\xE8me d\u2019incompr\xE9hension vis-\xE0-vis
+    de sa propre culture.\r\n\n<i>Un constat qui touche plus particuli\xE8rement
+    le catch ?\r</i>\n\nLe catch est, en plus, mal vu parce que consid\xE9r\xE9 comme
+    une arnaque. La sc\xE9narisation des combats entra\xEEne une dimension p\xE9jorative.
+    Il est pr\xE9sent\xE9 comme un divertissement vulgaire. Et donc, m\xEAme s\u2019il
+    est toujours tr\xE8s pr\xE9sent, le catch fait partie des ph\xE9nom\xE8nes populaires
+    compl\xE8tement marginalis\xE9s.\r\n\n<i>C\u2019est donc pour que cette histoire
+    du catch ne tombe pas dans l\u2019oubli que vous partez \xE0 la recherche d\u2019archives
+    pendant plusieurs ann\xE9es, et d\xE9cidez d\u2019en faire un livre : Kitsch
+    Catch. Que nous apprend-il sur les origines de la discipline chez nous ?\r</i>\n\nLe
+    catch est vraiment ancr\xE9 dans la culture des classes populaires. Ses origines
+    sont \xE0 trouver dans tous ces sports de force de la classe ouvri\xE8re, comme
+    la boxe, la lutte, l\u2019halt\xE9rophilie. On se situe dans les racines du monde
+    des classes laborieuses ; des gens qui triment dur pour gagner leur vie, et qui
+    ont donc cette admiration, cette distraction pour les sports de force.\r\n\nMais
+    le catch est aussi li\xE9 \xE0 une dimension de spectacle forain, avec une influence
+    am\xE9ricaine qui se remarque tr\xE8s t\xF4t d\xE9j\xE0. Nous parlons ici des
+    lutteurs qui voyageaient dans le monde entier, montaient leur chapiteau ou louaient
+    des salles dans diff\xE9rentes villes, et faisaient des repr\xE9sentations quatre
+    ou cinq soirs de suite. C\u2019\xE9taient des combattants nomades qui gagnaient
+    leur vie comme les troupes de cirque.\r\n\n<i>Il y avait des catcheurs c\xE9l\xE8bres
+    ?\r</i>\n\nEn Belgique nous avons eu, par exemple, Constant Le Marin. M\xEAme
+    s\u2019il n\u2019y a quasiment rien d\u2019\xE9crit sur lui, il reste un personnage
+    assez connu, car il appartient au folklore li\xE9geois. En plus, il s\u2019est
+    illustr\xE9 durant la 1re Guerre mondiale, en faisant partie d\u2019un corps
+    d\u2019automitrailleuses de l\u2019arm\xE9e belge envoy\xE9 sur le front russe.
+    Apr\xE8s la guerre, il a mont\xE9 une troupe itin\xE9rante de lutteurs. Sa vie
+    est un vrai film d\u2019aventures.\r\n\n<i>Et par la suite, comment \xE9volue
+    ce catch belge ?\r</i>\n\nL\u2019\xE9volution de la discipline se fait plus lentement
+    qu\u2019aux \xC9tats-Unis. Mais d\xE8s les ann\xE9es 60, le catch est transmis
+    en France \xE0 la t\xE9l\xE9vision. Avec des personnages comme l\u2019Ange blanc
+    et le Bourreau de B\xE9thune. C\u2019\xE9taient des histoires l\xE9gendaires
+    du Bien contre le Mal. C\u2019est \xE0 ce moment-l\xE0 qu\u2019on a connu l\u2019\xE2ge
+    d\u2019or du catch fran\xE7ais et belge. Nous avons eu des catcheurs assez c\xE9l\xE8bres
+    comme Van Buyten, champion poids lourd et p\xE8re du Diable rouge. J\u2019ai
+    m\xEAme retrouv\xE9 des affiches de combats de catch qui s\u2019organisaient
+    au Sportpaleis d\u2019Anvers, pas une arri\xE8re-salle de caf\xE9 donc. C\u2019\xE9taient
+    des spectacles tr\xE8s proches du cirque, qui attiraient \xE9norm\xE9ment de
+    monde.\r\n\n<i>Mais comment expliquer alors la disparition du catch belge ?\r</i>\n\nCe
+    succ\xE8s se prolonge jusque dans les ann\xE9es 70, et l\xE0 un d\xE9clin survient.
+    Les salles ne se remplissent plus. Avec la t\xE9l\xE9vision, les gens ont commenc\xE9
+    \xE0 pr\xE9f\xE9rer rester chez eux. Il n\u2019\xE9tait plus n\xE9cessaire de
+    sortir de chez soi pour voir un spectacle, quel qu\u2019il soit. C\u2019est d\u2019ailleurs
+    aussi \xE0 ce moment-l\xE0 que beaucoup de salles de cin\xE9ma ferment par exemple.
+    La t\xE9l\xE9vision a tu\xE9 toute une partie de la culture populaire.\r\n\n<i>Comment
+    revient-il alors au niveau qu\u2019on lui conna\xEEt aujourd\u2019hui ?\r</i>\n\nUn
+    regain d\u2019int\xE9r\xEAt s\u2019observe, dans les ann\xE9es 80, parce que
+    la cha\xEEne RTL diffuse du catch am\xE9ricain. On assiste alors \xE0 un second
+    souffle de la part du public. Et puis au d\xE9but des ann\xE9es 2000, se d\xE9veloppe
+    de nouveau un int\xE9r\xEAt certain (la cha\xEEne AB3 diffuse la WWE, comment\xE9e
+    en fran\xE7ais, ndlr). Un catch qui reste principalement sous l\u2019influence
+    am\xE9ricaine donc. Une discipline qui est aujourd\u2019hui perp\xE9tu\xE9e par
+    des passionn\xE9s d\u2019abord et avant tout. Des passionn\xE9s qui se r\xE9unissent
+    plusieurs fois par semaine dans des locaux plus ou moins bricol\xE9s.\r\n\n<i>Croyez-vous
+    \xE0 une professionnalisation de la discipline ?\r</i>\n\nC\u2019est un peu \xAB
+    mal barr\xE9 \xBB, car il n\u2019y a aucun soutien de la part des pouvoirs publics.
+    Cela restera, \xE0 long terme, quelque chose de marginal, une culture souterraine.
+    Mais le catch existera toujours sous une forme ou une autre. Et puis cette situation
+    est tr\xE8s pittoresque. Quand un \xE9v\xE9nement s\u2019organise dans un village,
+    on monte un chapiteau, la grand-m\xE8re de l\u2019organisateur fait des tartes,
+    et sa tante propose le caf\xE9. \xC7a a un c\xF4t\xE9 bricol\xE9, mais tr\xE8s
+    humain et tr\xE8s touchant !\r\n"
+--- !u!1 &6961265834380200703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961265834380200702}
+  - component: {fileID: 6961265834380200672}
+  - component: {fileID: 6961265834380200673}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6961265834380200702
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265834380200703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6961265833838969423}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6961265834380200672
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265834380200703}
+  m_CullTransparentMesh: 0
+--- !u!114 &6961265834380200673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961265834380200703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
